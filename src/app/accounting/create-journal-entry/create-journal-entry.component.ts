@@ -196,14 +196,14 @@ export class CreateJournalEntryComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create journal entry Accounting Page) Configuration Wizard.
+   * Proximo Step (Create journal entry Accounting Page) Configuration Wizard.
    */
   previousStep() {
     this.router.navigate(['/accounting']);
   }
 
   /**
-   * Next Step (Products) Dialog Configuration Wizard.
+   * Proximo Step (Products) Dialog Configuration Wizard.
    */
   openNextStepDialog() {
     const nextStepDialogRef = this.dialog.open( NextStepDialogComponent, {

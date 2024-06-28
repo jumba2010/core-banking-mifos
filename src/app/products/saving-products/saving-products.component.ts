@@ -86,7 +86,7 @@ export class SavingProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Share Products - Products Page) Configuration Wizard.
+   * Proximo Step (Share Products - Products Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showSavingsProductsPage = false;
@@ -96,7 +96,7 @@ export class SavingProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Savings Products Page) Configuration Wizard.
+   * Step Anterior (Savings Products Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showSavingsProductsPage = false;

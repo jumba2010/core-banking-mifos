@@ -101,7 +101,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Charges Page) Configuration Wizard.
+   * Proximo Step (Charges Page) Configuration Wizard.
    */
   nextStepCharges() {
     this.configurationWizardService.showCharges = false;
@@ -110,7 +110,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Create journal entry Page) Configuration Wizard.
+   * Step Anterior (Create journal entry Page) Configuration Wizard.
    */
   previousStepCharges() {
     this.configurationWizardService.showCharges = false;
@@ -119,7 +119,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Loan Products Page) Configuration Wizard.
+   * Proximo Step (Loan Products Page) Configuration Wizard.
    */
   nextStepLoanProducts() {
     this.configurationWizardService.showLoanProducts = false;
@@ -128,7 +128,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Charges Page) Configuration Wizard.
+   * Step Anterior (Charges Page) Configuration Wizard.
    */
   previousStepLoanProducts() {
     this.configurationWizardService.showLoanProducts = false;
@@ -137,7 +137,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Savings Products Page) Configuration Wizard.
+   * Proximo Step (Savings Products Page) Configuration Wizard.
    */
   nextStepSavingsProducts() {
     this.configurationWizardService.showSavingsProducts = false;
@@ -146,7 +146,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Savings Page) Configuration Wizard.
+   * Step Anterior (Savings Page) Configuration Wizard.
    */
   previousStepSavingsProducts() {
     this.configurationWizardService.showSavingsProducts = false;
@@ -155,7 +155,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Share Products Page) Configuration Wizard.
+   * Proximo Step (Share Products Page) Configuration Wizard.
    */
   nextStepShareProducts() {
     this.configurationWizardService.showShareProducts = false;
@@ -164,7 +164,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Savings Products Page) Configuration Wizard.
+   * Step Anterior (Savings Products Page) Configuration Wizard.
    */
   previousStepShareProducts() {
     this.configurationWizardService.showShareProducts = false;
@@ -173,7 +173,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Fixed Deposit Products Page) Configuration Wizard.
+   * Proximo Step (Fixed Deposit Products Page) Configuration Wizard.
    */
   nextStepFixedDepositProducts() {
     this.configurationWizardService.showFixedDepositProducts = false;
@@ -182,7 +182,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Share Products Page) Configuration Wizard.
+   * Step Anterior (Share Products Page) Configuration Wizard.
    */
   previousStepFixedDepositProducts() {
     this.configurationWizardService.showFixedDepositProducts = false;
@@ -191,7 +191,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Recurring Deposit Products Page) Configuration Wizard.
+   * Proximo Step (Recurring Deposit Products Page) Configuration Wizard.
    */
   nextStepRecurringDepositProducts() {
     this.configurationWizardService.showRecurringDepositProducts = false;
@@ -200,7 +200,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Fixed Deposit Products Page) Configuration Wizard.
+   * Step Anterior (Fixed Deposit Products Page) Configuration Wizard.
    */
   previousStepRecurringDepositProducts() {
     this.configurationWizardService.showRecurringDepositProducts = false;

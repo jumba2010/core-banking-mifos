@@ -167,7 +167,7 @@ export class OfficesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create Office Form) Configuration Wizard.
+   * Proximo Step (Create Office Form) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showOfficeList = false;
@@ -177,7 +177,7 @@ export class OfficesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step ( Manage Offices Page) Configuration Wizard.
+   * Step Anterior ( Manage Offices Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showOfficeList = false;

@@ -162,7 +162,7 @@ export class CreateUserComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Maker Checker Tasks System Page) Configuration Wizard.
+   * Proximo Step (Maker Checker Tasks System Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showUsersForm = false;
@@ -171,7 +171,7 @@ export class CreateUserComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Users page) Configuration Wizard.
+   * Step Anterior (Users page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showUsersForm = false;

@@ -107,7 +107,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Datatables Page) Configuration Wizard.
+   * Proximo Step (Manage Datatables Page) Configuration Wizard.
    */
   nextStepDatatables() {
     this.configurationWizardService.showDatatables = false;
@@ -116,7 +116,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Define working days Page) Configuration Wizard.
+   * Step Anterior (Define working days Page) Configuration Wizard.
    */
   previousStepDatatables() {
     this.configurationWizardService.showDatatables = false;
@@ -125,7 +125,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Codes Page) Configuration Wizard.
+   * Proximo Step (Manage Codes Page) Configuration Wizard.
    */
   nextStepCodes() {
     this.configurationWizardService.showSystemCodes = false;
@@ -134,7 +134,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Create Datatables Page) Configuration Wizard.
+   * Step Anterior (Create Datatables Page) Configuration Wizard.
    */
   previousStepCodes() {
     this.configurationWizardService.showSystemCodes = false;
@@ -143,7 +143,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Roles and Permission Page) Configuration Wizard.
+   * Proximo Step (Manage Roles and Permission Page) Configuration Wizard.
    */
   nextStepRolesandPermission() {
     this.configurationWizardService.showRolesandPermission = false;
@@ -152,7 +152,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Create Codes Page) Configuration Wizard.
+   * Step Anterior (Create Codes Page) Configuration Wizard.
    */
   previousStepRolesandPermission() {
     this.configurationWizardService.showRolesandPermission = false;
@@ -161,7 +161,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Maker Checker Tasks Page) Configuration Wizard.
+   * Proximo Step (Maker Checker Tasks Page) Configuration Wizard.
    */
   nextStepMakerCheckerTable() {
     this.configurationWizardService.showMakerCheckerTable = false;
@@ -170,7 +170,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Create User Page) Configuration Wizard.
+   * Step Anterior (Create User Page) Configuration Wizard.
    */
   previousStepMakerCheckerTable() {
     this.configurationWizardService.showMakerCheckerTable = false;
@@ -179,7 +179,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Configurations Page) Configuration Wizard.
+   * Proximo Step (Configurations Page) Configuration Wizard.
    */
   nextStepConfigurations() {
     this.configurationWizardService.showConfigurations = false;
@@ -188,7 +188,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Makerchecker Tasks Page) Configuration Wizard.
+   * Step Anterior (Makerchecker Tasks Page) Configuration Wizard.
    */
   previousStepConfigurations() {
     this.configurationWizardService.showConfigurations = false;
@@ -197,7 +197,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Scheduler Jobs Page) Configuration Wizard.
+   * Proximo Step (Manage Scheduler Jobs Page) Configuration Wizard.
    */
   nextStepSchedulerJobs() {
     this.configurationWizardService.showSchedulerJobs = false;
@@ -206,7 +206,7 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Global Configurations Page) Configuration Wizard.
+   * Step Anterior (Global Configurations Page) Configuration Wizard.
    */
   previousStepSchedulerJobs() {
     this.configurationWizardService.showSchedulerJobs = false;
@@ -215,14 +215,14 @@ export class SystemComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Reports Page) Configuration Wizard.
+   * Proximo Step (Manage Reports Page) Configuration Wizard.
    */
   nextStepManageReports() {
     this.router.navigate(['/system/reports']);
   }
 
   /**
-   * Previous Step (Manage Funds Page) Configuration Wizard.
+   * Step Anterior (Manage Funds Page) Configuration Wizard.
    */
   previousStepManageReports() {
     this.configurationWizardService.showManageReports = false;

@@ -123,7 +123,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   /**
    * Open Dialog for next step.
-   * Next Step (Organization) Configuration Wizard.
+   * Proximo Step (Organization) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showHome = false;
@@ -132,7 +132,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Organization) Dialog Configuration Wizard.
+   * Proximo Step (Organization) Dialog Configuration Wizard.
    */
   openNextStepDialog() {
     const nextStepDialogRef = this.dialog.open( NextStepDialogComponent, {
@@ -157,7 +157,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Breadcrumbs) Configuration Wizard.
+   * Step Anterior (Breadcrumbs) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showHome = false;

@@ -86,7 +86,7 @@ export class ShareProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Fixed Deposit Products - Products Page) Configuration Wizard.
+   * Proximo Step (Fixed Deposit Products - Products Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showShareProductsPage = false;
@@ -96,7 +96,7 @@ export class ShareProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Share Products - Products Page) Configuration Wizard.
+   * Step Anterior (Share Products - Products Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showShareProductsPage = false;

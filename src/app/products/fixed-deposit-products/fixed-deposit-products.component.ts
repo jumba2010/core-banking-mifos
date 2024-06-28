@@ -112,7 +112,7 @@ export class FixedDepositProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Recurring Deposits Products-Products Page) Configuration Wizard.
+   * Proximo Step (Recurring Deposits Products-Products Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showFixedDepositProductsPage = false;
@@ -122,7 +122,7 @@ export class FixedDepositProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Fixed Deposits Products-Products Page) Configuration Wizard.
+   * Step Anterior (Fixed Deposits Products-Products Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showFixedDepositProductsPage = false;

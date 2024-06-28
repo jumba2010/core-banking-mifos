@@ -3,7 +3,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 /**
- * Next Step Dialog Component.
+ * Proximo Step Dialog Component.
  */
 @Component({
   selector: 'mifosx-next-step-dialog',
@@ -14,9 +14,9 @@ export class NextStepDialogComponent implements OnInit {
 
   /* Step Percentage */
   stepPercentage: number;
-  /* Next Step Name */
+  /* Proximo Step Name */
   nextStepName: string;
-  /* Previous Step Name*/
+  /* Step Anterior Name*/
   previousStepName: string;
 
   /**

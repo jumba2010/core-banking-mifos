@@ -158,7 +158,7 @@ export class CreateOfficeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Add Edit Currency) Configuration Wizard.
+   * Proximo Step (Add Edit Currency) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showOfficeForm = false;
@@ -167,7 +167,7 @@ export class CreateOfficeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Offices Page) Configuration Wizard.
+   * Step Anterior (Manage Offices Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showOfficeForm = false;

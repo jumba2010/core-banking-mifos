@@ -212,7 +212,7 @@ export class ConfigureMakerCheckerTasksComponent implements OnInit, AfterViewIni
   }
 
   /**
-   * Next Step (Global Configurations System Page) Configuration Wizard.
+   * Proximo Step (Global Configurations System Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showMakerCheckerTablePage = false;
@@ -222,7 +222,7 @@ export class ConfigureMakerCheckerTasksComponent implements OnInit, AfterViewIni
   }
 
   /**
-   * Previous Step (Maker Checker Tasks System Page) Configuration Wizard.
+   * Step Anterior (Maker Checker Tasks System Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showMakerCheckerTablePage = false;

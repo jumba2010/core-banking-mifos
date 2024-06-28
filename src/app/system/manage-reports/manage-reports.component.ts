@@ -105,7 +105,7 @@ export class ManageReportsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Home) Configuration Wizard Tour Complete.
+   * Proximo Step (Home) Configuration Wizard Tour Complete.
    */
   nextStep() {
     this.configurationWizardService.showManageReports = false;
@@ -113,7 +113,7 @@ export class ManageReportsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Reports System Page) Configuration Wizard.
+   * Step Anterior (Manage Reports System Page) Configuration Wizard.
    */
   previousStep() {
     this.router.navigate(['/system']);

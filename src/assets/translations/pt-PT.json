@@ -1,0 +1,132 @@
+{
+  "APP_NAME": "Mifos X",
+  "Logged in as": "Conectado como",
+  "Remember me": "Lembrar-me",
+  "not_found_subtitle": "Oops.. Parece que esta página não existe.",
+  "languages": {
+    "en-US": "Inglês",
+    "fr-FR": "Francês",
+    "es-MX": "Espanhol",
+    "pt-PT": "Português"
+  },
+  "labels": {
+    "breadcrumbs": {
+      "Home": "Início"
+    },
+    "buttons": {
+      "Dashboard": "Painel de Controle",
+      "Add": "Adicionar",
+      "Back": "Voltar",
+      "Close": "Fechar",
+      "Next": "Próximo",
+      "Login": "Entrar",
+      "Create User": "Criar Utilizador"
+    },
+    "commons": {
+      "is required": "é obrigatório"
+    },
+    "inputs": {
+      "Tenant": "Inquilino",
+      "Language": "Idioma",
+      "Server": "Servidor",
+      "Url": "Url",
+      "Login": "Entrar",
+      "Logout": "Sair",
+      "Username": "Nome de Utilizador",
+      "Password": "Senha",
+      "Remember me": "Lembrar-me",
+      "Filter": "Filtrar",
+      "products": {
+        "loan": {
+          "Amortization": "Amortização",
+          "amortizationType": {
+            "Equal installments": "Parcelas iguais",
+            "Equal principal payments": "Pagamentos de principal iguais"
+          },
+          "Is Equal Amortization?": "É Amortização Igual?"
+        }
+      }
+    },
+    "links": {
+      "Contribute": "Contribuir",
+      "Resources": "Recursos",
+      "Community": "Comunidade",
+      "User Manual": "Manual do Utilizador",
+      "Functional Specifications": "Especificações Funcionais",
+      "Developer Zone": "Zona de Desenvolvedores",
+      "User Group": "Grupo de Utilizadores",
+      "Developer Group": "Grupo de Desenvolvedores",
+      "IRC": "IRC",
+      "Key Design Principles": "Princípios de Design Chave",
+      "Working with Code": "Trabalhando com Código",
+      "Donate": "Doar",
+      "Forgot Password?": "Esqueceu-se da Senha?"
+    },
+    "menus": {
+      "Institution": "Instituição",
+      "Accounting": "Contabilidade",
+      "Breadcrumbs": "Breadcrumbs",
+      "Reports": "Relatórios",
+      "Admin": "Admin",
+      "Self Service": "Autoatendimento",
+      "Configuration Wizard": "Assistente de Configuração",
+      "Clients": "Clientes",
+      "Groups": "Grupos",
+      "Centers": "Centros",
+      "All": "Todos",
+      "Loans": "Empréstimos",
+      "Savings": "Poupanças",
+      "Funds": "Fundos",
+      "XBRL": "XBRL",
+      "Users": "Utilizadores",
+      "Organization": "Organização",
+      "System": "Sistema",
+      "Products": "Produtos",
+      "Templates": "Modelos",
+      "User Management": "Gestão de Utilizadores",
+      "App Configuration": "Configuração da Aplicação",
+      "Task Management": "Gestão de Tarefas",
+      "Help": "Ajuda",
+      "Profile": "Perfil",
+      "Settings": "Configurações",
+      "Sign Out": "Sair",
+      "Global Search": "Pesquisa Global",
+      "Language Selector": "Seletor de Idioma",
+      "Theme Picker": "Selecionador de Tema",
+      "Application Menu": "Menu da Aplicação",
+      "User Panel": "Painel do Utilizador",
+      "Frequently Accessed": "Frequentemente Acessados",
+      "Dashboard": "Painel de Controle",
+      "Navigation": "Navegação",
+      "Frequent Postings": "Postagens Frequentes",
+      "Create Journal Entry": "Criar Lançamento Contábil",
+      "Chart of Accounts": "Plano de Contas",
+      "Notifications": "Notificações",
+      "Main Items": "Itens Principais",
+      "Checker Inbox and Tasks": "Caixa de Entrada e Tarefas do Verificador",
+      "Individual Collection Sheet": "Folha de Cobrança Individual",
+      "Keyboard Shortcuts": "Atalhos de Teclado"
+    },
+    "placeholders": {
+      "Add new server": "Adicionar novo servidor",
+      "Search Activity": "Pesquisar Atividade"
+    },
+    "texts": {
+      "Welcome": "Bem-vindo",
+      "Version": "Versão",
+      "by": "por",
+      "Login into Tenant": "Entrar no Inquilino"
+    }
+  },
+  "errors": {
+    "inputs": {
+      "Password is required": "Senha é obrigatória",
+      "Username is required": "Nome de Utilizador é obrigatório",
+      "Username or password incorrect.": "Nome de Utilizador ou senha incorretos"
+    }
+  },
+  "tooltips": {
+    "Settings": "Configurações",
+    "Sign Out": "Sair"
+  }
+}

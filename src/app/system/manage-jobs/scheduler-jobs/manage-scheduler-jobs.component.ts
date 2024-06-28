@@ -206,7 +206,7 @@ export class ManageSchedulerJobsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Scheduler Jobs) Configuration Wizard.
+   * Step Anterior (Scheduler Jobs) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showSchedulerJobsPage = false;
@@ -216,7 +216,7 @@ export class ManageSchedulerJobsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Accounting) Dialog Configuration Wizard.
+   * Proximo Step (Accounting) Dialog Configuration Wizard.
    */
   openNextStepDialog() {
     const nextStepDialogRef = this.dialog.open(NextStepDialogComponent, {

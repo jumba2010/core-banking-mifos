@@ -264,7 +264,7 @@ export class CreateDataTableComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (System Codes Page) Configuration Wizard.
+   * Proximo Step (System Codes Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showDatatablesForm = false;
@@ -273,7 +273,7 @@ export class CreateDataTableComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Datatables Page) Configuration Wizard.
+   * Step Anterior (Manage Datatables Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showDatatablesForm = false;

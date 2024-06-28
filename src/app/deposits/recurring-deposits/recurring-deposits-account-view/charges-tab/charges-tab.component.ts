@@ -159,7 +159,7 @@ export class ChargesTabComponent implements OnInit {
     const editChargeDialogRef = this.dialog.open(FormDialogComponent, { data });
     editChargeDialogRef.afterClosed().subscribe((response: any) => {
       if (response.data) {
-        const locale = 'en';
+        const locale = 'pt';
         const dateFormat = 'dd MMMM yyyy';
         const dataObject = {
           ...response.data.value,

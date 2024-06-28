@@ -147,7 +147,7 @@ export class ClosingEntriesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create journal Entry Accounting Page) Configuration Wizard.
+   * Proximo Step (Create journal Entry Accounting Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showClosingEntriesPage = false;
@@ -157,7 +157,7 @@ export class ClosingEntriesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Closing Entries Accounting Page) Configuration Wizard.
+   * Step Anterior (Closing Entries Accounting Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showClosingEntriesPage = false;

@@ -15,7 +15,7 @@ import { ClientDatatableStepComponent } from '../client-stepper/client-datatable
 import { SettingsService } from 'app/settings/settings.service';
 
 /**
- * Create Client Component.
+ * Cadastrar Cliente Component.
  */
 @Component({
   selector: 'mifosx-create-client',
@@ -119,7 +119,7 @@ export class CreateClientComponent {
   }
 
   /**
-   * Submits the create client form.
+   * Submits the Cadastrar Cliente form.
    */
   submit() {
     const locale = this.settingsService.language.code;

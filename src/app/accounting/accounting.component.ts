@@ -92,7 +92,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Charts of Accounts Page) Configuration Wizard.
+   * Proximo Step (Charts of Accounts Page) Configuration Wizard.
    */
   nextStepChartofAccounts() {
     this.configurationWizardService.showChartofAccounts = false;
@@ -101,7 +101,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Scheduler Jobs Page) Configuration Wizard.
+   * Step Anterior (Scheduler Jobs Page) Configuration Wizard.
    */
   previousStepChartofAccounts() {
     this.configurationWizardService.showChartofAccounts = false;
@@ -110,7 +110,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Accounts Linked Page) Configuration Wizard.
+   * Proximo Step (Accounts Linked Page) Configuration Wizard.
    */
   nextStepAccountsLinked() {
     this.configurationWizardService.showAccountsLinked = false;
@@ -119,7 +119,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Create Chart of Accounts Page) Configuration Wizard.
+   * Step Anterior (Create Chart of Accounts Page) Configuration Wizard.
    */
   previousStepAccountsLinked() {
     this.configurationWizardService.showAccountsLinked = false;
@@ -128,14 +128,14 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Migrate Opening Balances) Configuration Wizard.
+   * Proximo Step (Migrate Opening Balances) Configuration Wizard.
    */
   nextStepMigrateOpeningBalances() {
     this.router.navigate(['/accounting/migrate-opening-balances']);
   }
 
   /**
-   * Previous Step (Accounts Linked Page) Configuration Wizard.
+   * Step Anterior (Accounts Linked Page) Configuration Wizard.
    */
   previousStepMigrateOpeningBalances() {
     this.configurationWizardService.showMigrateOpeningBalances = false;
@@ -144,7 +144,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Closing Entries Page) Configuration Wizard.
+   * Proximo Step (Closing Entries Page) Configuration Wizard.
    */
   nextStepClosingEntries() {
     this.configurationWizardService.showClosingEntries = false;
@@ -153,7 +153,7 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Migrate Opening Balances Page) Configuration Wizard.
+   * Step Anterior (Migrate Opening Balances Page) Configuration Wizard.
    */
   previousStepClosingEntries() {
     this.configurationWizardService.showClosingEntries = false;
@@ -162,14 +162,14 @@ export class AccountingComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create Journal Entries Page) Configuration Wizard.
+   * Proximo Step (Create Journal Entries Page) Configuration Wizard.
    */
   nextStepCreateJournalEntries() {
     this.router.navigate(['/accounting/journal-entries/create']);
   }
 
   /**
-   * Previous Step (Closing Entries Page) Configuration Wizard.
+   * Step Anterior (Closing Entries Page) Configuration Wizard.
    */
   previousStepCreateJournalEntries() {
     this.configurationWizardService.showCreateJournalEntries = false;

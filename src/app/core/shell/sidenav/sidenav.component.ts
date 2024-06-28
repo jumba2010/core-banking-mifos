@@ -188,7 +188,7 @@ export class SidenavComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Breadcrumbs) Configuration Wizard.
+   * Proximo Step (Breadcrumbs) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showSideNav = false;
@@ -200,7 +200,7 @@ export class SidenavComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Toolbar) Configuration Wizard.
+   * Step Anterior (Toolbar) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showSideNav = false;

@@ -95,7 +95,7 @@ export class CreateCodeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Roles and Permission) Configuration Wizard.
+   * Proximo Step (Roles and Permission) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showSystemCodesForm = false;
@@ -104,7 +104,7 @@ export class CreateCodeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Codes Page) Configuration Wizard.
+   * Step Anterior (Manage Codes Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showSystemCodesForm = false;

@@ -111,7 +111,7 @@ export class EmployeesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create Employee Page) Configuration Wizard.
+   * Proximo Step (Create Employee Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showEmployeeList = false;
@@ -121,7 +121,7 @@ export class EmployeesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Employees) Configuration Wizard.
+   * Step Anterior (Manage Employees) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showEmployeeList = false;

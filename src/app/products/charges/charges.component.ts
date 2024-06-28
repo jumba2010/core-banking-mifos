@@ -118,7 +118,7 @@ export class ChargesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Loan Products - Products Page) Configuration Wizard.
+   * Proximo Step (Loan Products - Products Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showChargesPage = false;
@@ -128,7 +128,7 @@ export class ChargesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Charges - Products Page) Configuration Wizard.
+   * Step Anterior (Charges - Products Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showChargesPage = false;

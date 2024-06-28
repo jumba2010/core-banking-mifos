@@ -136,7 +136,7 @@ export class CreateEmployeeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Define Working Days) Configuration Wizard.
+   * Proximo Step (Define Working Days) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showEmployeeForm = false;
@@ -145,7 +145,7 @@ export class CreateEmployeeComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Employees Page) Configuration Wizard.
+   * Step Anterior (Employees Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showEmployeeForm = false;

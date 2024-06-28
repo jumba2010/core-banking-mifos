@@ -171,14 +171,14 @@ export class ManageFundsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Organization Page) Dialog Configuration Wizard.
+   * Step Anterior (Organization Page) Dialog Configuration Wizard.
    */
   previousStep() {
     this.router.navigate(['/organization']);
   }
 
   /**
-   * Next Step (Manage Reports) Dialog Configuration Wizard.
+   * Proximo Step (Manage Reports) Dialog Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showManageFunds = false;

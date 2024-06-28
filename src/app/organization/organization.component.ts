@@ -103,7 +103,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Offices Page) Configuration Wizard.
+   * Proximo Step (Manage Offices Page) Configuration Wizard.
    */
   nextStepOffice() {
     this.configurationWizardService.showCreateOffice = false;
@@ -112,7 +112,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Home component) Configuration Wizard.
+   * Step Anterior (Home component) Configuration Wizard.
    */
   previousStepOffice() {
     this.configurationWizardService.showCreateOffice = false;
@@ -121,7 +121,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Add/Edit Currency Page) Configuration Wizard.
+   * Proximo Step (Add/Edit Currency Page) Configuration Wizard.
    */
   nextStepAddEditCurrency() {
     this.configurationWizardService.showAddEditCurrency = false;
@@ -130,7 +130,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Office Form) Configuration Wizard.
+   * Step Anterior (Office Form) Configuration Wizard.
    */
   previousStepAddEditCurrency() {
     this.configurationWizardService.showAddEditCurrency = false;
@@ -139,7 +139,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (manage Holidays Page) Configuration Wizard.
+   * Proximo Step (manage Holidays Page) Configuration Wizard.
    */
   nextStepHolidays() {
     this.configurationWizardService.showCreateHoliday = false;
@@ -148,7 +148,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Currency Form) Configuration Wizard.
+   * Step Anterior (Currency Form) Configuration Wizard.
    */
   previousStepHolidays() {
     this.configurationWizardService.showCreateHoliday = false;
@@ -157,7 +157,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Employees Page) Configuration Wizard.
+   * Proximo Step (Manage Employees Page) Configuration Wizard.
    */
   nextStepEmployee() {
     this.configurationWizardService.showCreateEmployee = false;
@@ -166,7 +166,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Holiday Form) Configuration Wizard.
+   * Step Anterior (Holiday Form) Configuration Wizard.
    */
   previousStepEmployee() {
     this.configurationWizardService.showCreateEmployee = false;
@@ -175,14 +175,14 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Define Working Days Page) Configuration Wizard.
+   * Proximo Step (Define Working Days Page) Configuration Wizard.
    */
   nextStepWorkingDays() {
     this.router.navigate(['/organization/working-days']);
   }
 
   /**
-   * Previous Step (Employee Form) Configuration Wizard.
+   * Step Anterior (Employee Form) Configuration Wizard.
    */
   previousStepWorkingDays() {
     this.configurationWizardService.showDefineWorkingDays = false;
@@ -191,14 +191,14 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Manage Funds Page) Configuration Wizard.
+   * Proximo Step (Manage Funds Page) Configuration Wizard.
    */
   nextStepManageFunds() {
     this.router.navigate(['/organization/manage-funds']);
   }
 
   /**
-   * Previous Step (Recurring Deposit Page) Configuration Wizard.
+   * Step Anterior (Recurring Deposit Page) Configuration Wizard.
    */
   previousStepManageFunds() {
     this.configurationWizardService.showManageFunds = false;

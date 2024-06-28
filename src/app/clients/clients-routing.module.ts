@@ -61,7 +61,7 @@ const routes: Routes = [
       },
       {
         path: 'create',
-        data: { title: extract('Create Client'), breadcrumb: 'Create Client', routeParamBreadcrumb: false },
+        data: { title: extract('Cadastrar Cliente'), breadcrumb: 'Cadastrar Cliente', routeParamBreadcrumb: false },
         component: CreateClientComponent,
         resolve: {
           clientAddressFieldConfig: ClientAddressFieldConfigurationResolver,

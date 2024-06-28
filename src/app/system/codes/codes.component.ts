@@ -105,7 +105,7 @@ export class CodesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create Codes Page) Configuration Wizard.
+   * Proximo Step (Create Codes Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showSystemCodesPage = false;
@@ -115,7 +115,7 @@ export class CodesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (manage Codes System Page) Configuration Wizard.
+   * Step Anterior (manage Codes System Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showSystemCodesPage = false;

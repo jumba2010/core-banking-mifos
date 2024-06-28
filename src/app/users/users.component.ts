@@ -112,7 +112,7 @@ export class UsersComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create User Page) Configuration Wizard.
+   * Proximo Step (Create User Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showUsers = false;
@@ -122,7 +122,7 @@ export class UsersComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Roles and Permission Page) Configuration Wizard.
+   * Step Anterior (Roles and Permission Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showUsers = false;

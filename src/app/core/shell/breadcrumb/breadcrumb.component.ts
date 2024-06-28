@@ -207,7 +207,7 @@ export class BreadcrumbComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Home) Configuration Wizard.
+   * Proximo Step (Home) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showBreadcrumbs = false;
@@ -218,7 +218,7 @@ export class BreadcrumbComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (SideNavBar) Configuration Wizard.
+   * Step Anterior (SideNavBar) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showBreadcrumbs = false;

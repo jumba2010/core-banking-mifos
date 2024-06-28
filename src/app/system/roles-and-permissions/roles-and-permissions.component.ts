@@ -118,7 +118,7 @@ export class RolesAndPermissionsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Users) Configuration Wizard.
+   * Proximo Step (Users) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showRolesandPermissionPage = false;
@@ -128,7 +128,7 @@ export class RolesAndPermissionsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Roles and Permission System Page) Configuration Wizard.
+   * Step Anterior (Roles and Permission System Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showRolesandPermissionPage = false;

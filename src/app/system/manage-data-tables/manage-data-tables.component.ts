@@ -111,7 +111,7 @@ export class ManageDataTablesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create data tables Page) Configuration Wizard.
+   * Proximo Step (Create data tables Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showDatatablesPage = false;
@@ -121,7 +121,7 @@ export class ManageDataTablesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Datables system Page) Configuration Wizard.
+   * Step Anterior (Manage Datables system Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showDatatablesPage = false;

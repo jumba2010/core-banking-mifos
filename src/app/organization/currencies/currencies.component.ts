@@ -112,7 +112,7 @@ export class CurrenciesComponent implements OnInit, AfterViewInit  {
   }
 
   /**
-   * Next Step (Add currency page) Configuration Wizard.
+   * Proximo Step (Add currency page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showCurrencyPage = false;
@@ -122,7 +122,7 @@ export class CurrenciesComponent implements OnInit, AfterViewInit  {
   }
 
   /**
-   * Previous Step (Add/edit Currency) Configuration Wizard.
+   * Step Anterior (Add/edit Currency) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showCurrencyPage = false;

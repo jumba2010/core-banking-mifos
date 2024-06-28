@@ -54,9 +54,9 @@ export class KeyboardShortcutsConfiguration {
             // key: 'o',
             // route: ''
             // },
-            // Create Client - ctrl + c
+            // Cadastrar Cliente - ctrl + c
             {
-                title: 'Create Client',
+                title: 'Cadastrar Cliente',
                 ctrlKey: true,
                 shiftKey: false,
                 altKey: false,

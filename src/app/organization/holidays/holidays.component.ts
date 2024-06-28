@@ -134,7 +134,7 @@ export class HolidaysComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Create Employee) Configuration Wizard.
+   * Proximo Step (Create Employee) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showHolidayPage = false;
@@ -144,7 +144,7 @@ export class HolidaysComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Manage Holidays) Configuration Wizard.
+   * Step Anterior (Manage Holidays) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showHolidayPage = false;

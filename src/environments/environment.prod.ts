@@ -21,8 +21,8 @@ export const environment = {
     enabled: false,  // For connecting to Mifos X using OAuth2 Authentication change the value to true
     serverUrl: ''
   },
-  defaultLanguage: window['env']['defaultLanguage'] || 'en-US',
-  supportedLanguages: window['env']['supportedLanguages'] || 'en-US,es-MX,fr-FR',
+  defaultLanguage: window['env']['defaultLanguage'] || 'pt-PT',
+  supportedLanguages: window['env']['supportedLanguages'] || 'pt-PT,en-US,fr-FR',
   preloadClients: window['env']['preloadClients'] || true,
 
   defaultCharDelimiter: window['env']['defaultCharDelimiter'] || ','

@@ -8,7 +8,7 @@ import { Dates } from 'app/core/utils/dates';
 import { SettingsService } from 'app/settings/settings.service';
 
 /**
- * Create Client Component
+ * Cadastrar Cliente Component
  */
 @Component({
   selector: 'mifosx-client-general-step',
@@ -26,7 +26,7 @@ export class ClientGeneralStepComponent implements OnInit {
 
   /** Client Template */
   @Input() clientTemplate: any;
-  /** Create Client Form */
+  /** Cadastrar Cliente Form */
   createClientForm: FormGroup;
 
   /** Office Options */

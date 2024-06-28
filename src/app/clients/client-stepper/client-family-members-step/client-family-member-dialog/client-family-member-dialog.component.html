@@ -5,10 +5,10 @@
   <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutGap="2%">
 
     <mat-form-field fxFlex="48%">
-      <mat-label>First Name</mat-label>
+      <mat-label>Nome</mat-label>
       <input formControlName="firstName" required matInput />
       <mat-error *ngIf="familyMemberForm.controls.firstName.hasError('required')">
-        First Name is <strong>required</strong>
+        Nome é  <strong>required</strong>
       </mat-error>
     </mat-form-field>
 
@@ -18,54 +18,54 @@
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Last Name</mat-label>
+      <mat-label>Apelido</mat-label>
       <input formControlName="lastName" required matInput />
       <mat-error *ngIf="familyMemberForm.controls.lastName.hasError('required')">
-        Last Name is <strong>required</strong>
+        Apelido é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Qualification</mat-label>
+      <mat-label>Qualificações</mat-label>
       <input formControlName="qualification" matInput />
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Age</mat-label>
+      <mat-label>Idade</mat-label>
       <input type="number" formControlName="age" matInput [min]="0"/>
       <mat-error *ngIf="familyMemberForm.controls.age.hasError('required')">
-        Age is <strong>required and cannot be negative</strong>
+        Idade é <strong>obrigatório e não pode ser negativo</strong>
       </mat-error>
     </mat-form-field>
 
-    <mat-checkbox formControlName="isDependent" labelPosition="before" fxFlex="48%">Is Dependent?</mat-checkbox>
+    <mat-checkbox formControlName="isDependent" labelPosition="before" fxFlex="48%">É Dependente?</mat-checkbox>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Relationship</mat-label>
+      <mat-label>Grau de Parentesco</mat-label>
       <mat-select formControlName="relationshipId" required>
         <mat-option *ngFor="let relation of data.options.relationshipIdOptions" [value]="relation.id">
           {{ relation.name  }}
         </mat-option>
       </mat-select>
       <mat-error *ngIf="familyMemberForm.controls.relationshipId.hasError('required')">
-        Relationship is <strong>required</strong>
+        Grau de Parentesco é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Gender</mat-label>
+      <mat-label>Género</mat-label>
       <mat-select formControlName="genderId" required>
         <mat-option *ngFor="let gender of data.options.genderIdOptions" [value]="gender.id">
           {{ gender.name }}
         </mat-option>
       </mat-select>
       <mat-error *ngIf="familyMemberForm.controls.genderId.hasError('required')">
-        Gender is <strong>required</strong>
+        Género é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Profession</mat-label>
+      <mat-label>Profissão</mat-label>
       <mat-select formControlName="professionId">
         <mat-option *ngFor="let profession of data.options.professionIdOptions" [value]="profession.id">
           {{ profession.name }}
@@ -74,7 +74,7 @@
     </mat-form-field>
 
     <mat-form-field fxFlex="48%">
-      <mat-label>Marital Status</mat-label>
+      <mat-label>Estado Civial</mat-label>
       <mat-select formControlName="maritalStatusId">
         <mat-option *ngFor="let maritalStatus of data.options.maritalStatusIdOptions"
           [value]="maritalStatus.id">
@@ -85,20 +85,20 @@
 
 
     <mat-form-field fxFlex="98%" (click)="dueDatePicker.open()">
-      <mat-label>Date Of Birth</mat-label>
+      <mat-label>Data de Nascimento</mat-label>
       <input formControlName="dateOfBirth" matInput [max]="maxDate" [matDatepicker]="dueDatePicker" required>
       <mat-datepicker-toggle matSuffix [for]="dueDatePicker"></mat-datepicker-toggle>
       <mat-datepicker #dueDatePicker></mat-datepicker>
       <mat-error *ngIf="familyMemberForm.controls.dateOfBirth.hasError('required')">
-        Date of birth is <strong>required</strong>
+        Data de nascimento é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
 
   </div>
 
   <mat-dialog-actions align="center">
-    <button mat-raised-button mat-dialog-close>Cancel</button>
-    <button mat-raised-button color="primary" [disabled]="!familyMemberForm.valid" [mat-dialog-close]="{ member: familyMember }">Confirm</button>
+    <button mat-raised-button mat-dialog-close>Cancelar</button>
+    <button mat-raised-button color="primary" [disabled]="!familyMemberForm.valid" [mat-dialog-close]="{ member: familyMember }">Confirmar</button>
   </mat-dialog-actions>
 
 </form>

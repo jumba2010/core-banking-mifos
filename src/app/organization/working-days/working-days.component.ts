@@ -165,7 +165,7 @@ export class WorkingDaysComponent implements OnInit, AfterViewInit {
 
   /**
    * Open Dialog for next step.
-   * Next Step (System) Configuration Wizard.
+   * Proximo Step (System) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showDefineWorkingDays = false;
@@ -173,14 +173,14 @@ export class WorkingDaysComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Organization Page) Configuration Wizard.
+   * Step Anterior (Organization Page) Configuration Wizard.
    */
   previousStep() {
     this.router.navigate(['/organization']);
   }
 
   /**
-   * Next Step (System) Dialog Configuration Wizard.
+   * Proximo Step (System) Dialog Configuration Wizard.
    */
   openNextStepDialog() {
     const nextStepDialogRef = this.dialog.open( NextStepDialogComponent, {

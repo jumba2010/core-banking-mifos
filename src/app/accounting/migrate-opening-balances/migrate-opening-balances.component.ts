@@ -195,7 +195,7 @@ export class MigrateOpeningBalancesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Closing Entries Accounting Page) Configuration Wizard.
+   * Proximo Step (Closing Entries Accounting Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showMigrateOpeningBalances = false;
@@ -204,7 +204,7 @@ export class MigrateOpeningBalancesComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Migrate Opening Balances Accounting Page) Configuration Wizard.
+   * Step Anterior (Migrate Opening Balances Accounting Page) Configuration Wizard.
    */
   previousStep() {
     this.router.navigate(['/accounting']);

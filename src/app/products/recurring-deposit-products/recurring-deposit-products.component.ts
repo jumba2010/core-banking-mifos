@@ -126,7 +126,7 @@ export class RecurringDepositProductsComponent implements OnInit, AfterViewInit 
   }
 
   /**
-   * Previous Step (Recurring Deposit Products-Products Page) Configuration Wizard.
+   * Step Anterior (Recurring Deposit Products-Products Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showRecurringDepositProductsPage = false;
@@ -136,7 +136,7 @@ export class RecurringDepositProductsComponent implements OnInit, AfterViewInit 
   }
 
   /**
-   * Next Step (Setup Funds and Manage Reports) Dialog Configuration Wizard.
+   * Proximo Step (Setup Funds and Manage Reports) Dialog Configuration Wizard.
    */
   openNextStepDialog() {
     const nextStepDialogRef = this.dialog.open( NextStepDialogComponent, {

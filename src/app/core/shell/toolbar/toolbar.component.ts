@@ -118,7 +118,7 @@ export class ToolbarComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (SideNavbar) Configuration Wizard.
+   * Proximo Step (SideNavbar) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showToolbar = false;

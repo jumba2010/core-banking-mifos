@@ -130,7 +130,7 @@ export class GlobalConfigurationsTabComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Scheduler Jobs System Page) Configuration Wizard.
+   * Proximo Step (Scheduler Jobs System Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showConfigurationsPage = false;
@@ -140,7 +140,7 @@ export class GlobalConfigurationsTabComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Global Configurations System Page) Configuration Wizard.
+   * Step Anterior (Global Configurations System Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showConfigurationsPage = false;

@@ -16,7 +16,7 @@ export class LoginPage {
   /** Forces default language */
   constructor() {
     this.navigateTo();
-    browser.executeScript(() => localStorage.setItem('language', 'en-US'));
+    browser.executeScript(() => localStorage.setItem('language', 'pt-PT'));
   }
 
   /** Navigate to specified url */

@@ -86,7 +86,7 @@ export class LoanProductsComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Savings Products - Products Page) Configuration Wizard.
+   * Proximo Step (Savings Products - Products Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showLoanProductsPage = false;

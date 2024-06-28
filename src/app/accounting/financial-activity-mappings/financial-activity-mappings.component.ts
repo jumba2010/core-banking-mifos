@@ -109,7 +109,7 @@ export class FinancialActivityMappingsComponent implements OnInit, AfterViewInit
   }
 
   /**
-   * Next Step (Migrate Opening Balances Accounting Page) Configuration Wizard.
+   * Proximo Step (Migrate Opening Balances Accounting Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showAccountsLinkedPage = false;
@@ -119,7 +119,7 @@ export class FinancialActivityMappingsComponent implements OnInit, AfterViewInit
   }
 
   /**
-   * Previous Step (Accounts Linked Accounting Page) Configuration Wizard.
+   * Step Anterior (Accounts Linked Accounting Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showAccountsLinkedPage = false;

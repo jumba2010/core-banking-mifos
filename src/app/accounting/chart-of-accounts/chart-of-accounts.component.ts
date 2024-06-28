@@ -159,7 +159,7 @@ export class ChartOfAccountsComponent implements AfterViewInit, OnInit {
   }
 
   /**
-   * Next Step (Create Charts of Accounts Page) Configuration Wizard.
+   * Proximo Step (Create Charts of Accounts Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showChartofAccountsPage = false;
@@ -169,7 +169,7 @@ export class ChartOfAccountsComponent implements AfterViewInit, OnInit {
   }
 
   /**
-   * Previous Step (Charts of Accounts Accounting Page) Configuration Wizard.
+   * Step Anterior (Charts of Accounts Accounting Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showChartofAccountsPage = false;

@@ -167,7 +167,7 @@ export class CreateGlAccountComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Next Step (Accounts Linked Accounting Page) Configuration Wizard.
+   * Proximo Step (Accounts Linked Accounting Page) Configuration Wizard.
    */
   nextStep() {
     this.configurationWizardService.showChartofAccountsForm = false;
@@ -176,7 +176,7 @@ export class CreateGlAccountComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Previous Step (Charts of Accounts Page) Configuration Wizard.
+   * Step Anterior (Charts of Accounts Page) Configuration Wizard.
    */
   previousStep() {
     this.configurationWizardService.showChartofAccountsForm = false;

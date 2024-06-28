@@ -16,7 +16,7 @@ import { SettingsService } from 'app/settings/settings.service';
   styleUrls: ['./create-user.component.scss']
 })
 export class CreateUserComponent implements OnInit {
-  /** Create Client Form */
+  /** Cadastrar Cliente Form */
   createUserForm: FormGroup;
 
   /** Denotes type of user. */
